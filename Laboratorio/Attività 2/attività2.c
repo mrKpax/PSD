@@ -41,6 +41,7 @@ char **crea_matrice()
     return nomecognome;
 }
 
+//funzione che effettua il merge di due stringhe
 char *merge(char *nome, char *cognome)
 {
     void *result, *s1, *s2;
@@ -59,6 +60,7 @@ char *merge(char *nome, char *cognome)
     return result;
 }
 
+//funzione che effettua l'incastonamento della stringa più breve in quella più lunga
 char *incastona(char *longer, char *shorter)
 {
     char *result;
@@ -90,6 +92,7 @@ char *incastona(char *longer, char *shorter)
     return result;
 }
 
+//funzione che effettua lo swap di stringhe
 void inverti(char **matrice)
 {
     char temp[strlen(matrice[0])+1];
@@ -105,6 +108,7 @@ void inverti(char **matrice)
     printf("Seconda stringa: %s\n", matrice[1]);
 }
 
+//funzione che crea una terza stringa all'interno della matrice formata dalle prime tre lettere del nome e le ultime tre del cognome
 void crea(char **matrice)
 {   
     matrice[2] = xcalloc(7,1); 
@@ -146,6 +150,7 @@ void bubble(char matrice[], int n)
     while(shift(matrice,n));
 }
 
+//funzione che effettua il bubblesort di due stringhe
 void ordina(char **matrice)
 {
     for (int i=0; i<2; i++)
