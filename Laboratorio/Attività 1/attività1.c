@@ -4,6 +4,7 @@
 #include "modulo.h"
 #define MAX 50
 
+//funzione che trova il carattere minimo in una stringa secondo la tabella ASCII
 char minimo(char *s)
 { 
     char min = s[0];
