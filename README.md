@@ -15,5 +15,6 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 ### Esercizio 1 - input da riga di comando
 - merge.c: concatena due stringhe inserite in input da riga di comando.
 - ordina.c: ordina in maniera crescente una serie di numeri inseriti in input da riga di comando.
+- vocons.c: inserisce vocali e consonanti di una stringa inserita da riga di comando in due array separati.
 
 
