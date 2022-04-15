@@ -1,6 +1,9 @@
 # Programmazione e Strutture Dati 💻📚
 Programmi in C per il corso di Programmazione e Strutture Dati
 
+## Introduzione
+- ADTlibro.c: esempio di implementazione di ADT.
+
 ## Lab: 
 ### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
@@ -17,7 +20,3 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - merge.c: concatena due stringhe inserite in input da riga di comando.
 - ordina.c: ordina in maniera crescente una serie di numeri inseriti in input da riga di comando.
 - vocons.c: inserisce vocali e consonanti di una stringa inserita da riga di comando in due array separati.
-
-## Introduzione
-- ADTlibro.c: esempio di implementazione di ADT.
-
