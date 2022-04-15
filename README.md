@@ -3,6 +3,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Introduzione
 - ADTlibro.c: esempio di implementazione di ADT.
+- fattoriale.c: esempio di ricorsione.
 
 ## Lab: 
 ### Moduli
