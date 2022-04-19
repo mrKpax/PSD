@@ -6,6 +6,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - fattoriale.c: esempio di ricorsione.
 
 ## Ordinamenti
+- insertionsort.c: Ordina un array con la tecnica dell'Insertion Sort.
 - selectionsort.c: Ordina un array con la tecnica del Selection Sort.
 
 ## Ricerche
