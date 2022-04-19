@@ -9,6 +9,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - selectionsort.c: Ordina un array con la tecnica del Selection Sort.
 
 ## Ricerche
+- minimoRicorsiva.c: Soluzione ricorsiva della ricerca del minimo in un array. 
 
 ## Laboratorio: 
 #### Moduli
