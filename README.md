@@ -1,9 +1,10 @@
 # Programmazione e Strutture Dati 💻📚
 Programmi in C per il corso di Programmazione e Strutture Dati
 
-## Introduzione
+## Esempi introduttivi
 - ADTlibro.c: esempio di implementazione di ADT.
 - fattoriale.c: esempio di ricorsione.
+- lineacomando.c: esempio di input da linea di comando.
 
 ## Ordinamenti
 - bubblesort.c: Ordina un array con la tecnica del Bubble Sort.
