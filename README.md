@@ -15,6 +15,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - minimoRicorsiva.c: Soluzione ricorsiva della ricerca del minimo in un array. 
 - ricercaRicorsiva.c: Soluzione ricorsiva della ricerca di un elemento in un array.
 
+## Testing
+- testlineacom.c: esempio di testing con file inseriti su linea di comando;
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
