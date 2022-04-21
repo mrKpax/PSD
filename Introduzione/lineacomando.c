@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         int *a = xcalloc(n,sizeof(int));
 
         input_array(a,n);
-        selection_sort(a,n);
+        ordina_array(a,n);
         output_array(a,n);
     }
 }
