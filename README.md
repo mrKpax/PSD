@@ -25,6 +25,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - punto.c: svolgimento delle funzioni presenti nell'header.
 - punto.h: header contenente le operazioni sull'ADT punto.
 - viciniBase.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione senza file).
+- viciniFile.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione con file).
 
 ## Laboratorio: 
 #### Moduli
