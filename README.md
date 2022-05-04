@@ -19,6 +19,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## ADT
 - ADTlibro.c: esempio di implementazione di ADT.
+- libro.c: svolgimento delle funzioni presenti nell'header.
 - libro.h: header contenente le operazioni sull'ADT libro.
 
 ## Laboratorio: 
