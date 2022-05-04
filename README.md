@@ -27,7 +27,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - viciniBase.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione senza file).
 - viciniFile.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione con file).
 ------------------------------------------------------------
-- puntoHide.h: header contenente le operazioni sull'ADT punto con implementazione della struttura del tipo nascosta (si ha un puntatore alla struttura).
+- puntoHide.h: header "punto.h" con implementazione della struttura del tipo nascosta, si ha un puntatore alla struttura.
 
 ## Laboratorio: 
 #### Moduli
