@@ -22,6 +22,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - libro.c: svolgimento delle funzioni presenti nell'header.
 - libro.h: header contenente le operazioni sull'ADT libro.
 
+- punto.c: svolgimento delle funzioni presenti nell'header.
+- punto.h: header contenente le operazioni sull'ADT punto.
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
