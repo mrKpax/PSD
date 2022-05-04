@@ -2,7 +2,6 @@
 Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Esempi introduttivi
-- ADTlibro.c: esempio di implementazione di ADT.
 - fattoriale.c: esempio di ricorsione.
 - lineacomando.c: esempio di input da linea di comando.
 
@@ -17,6 +16,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Testing
 - testlineacom.c: esempio di testing con file inseriti su linea di comando;
+
+## ADT
+- ADTlibro.c: esempio di implementazione di ADT.
 
 ## Laboratorio: 
 #### Moduli
