@@ -197,3 +197,64 @@ list inputList(int n)
 
     return reverseList(l); //poichè alla fine del ciclo l contiene la lista al contrario
 }
+
+list insertList(list l, int pos, item val)
+{
+    int i = 0;
+    list l1, prec = l;
+
+    if (pos == 0)
+    {
+        return consList(val, l); //se dobbiamo inserire in posizione 0
+    }    
+
+    while (i<pos-1 && prec != NULL)
+    {
+        prec = prec->next;
+        i++;
+    }
+
+    if(prec == NULL) //la lista di input ha meno di pos elementi
+    {    
+        return l;
+    }    
+    
+    //se prec!=NULL allora prec punta all'elemento in posizione pos-1
+    //è possibile inserire il nuovo elemento in posizione pos
+
+    l1 = consList(val, prec->next);
+    prec->next = l1;
+
+    return l;
+}
+
+list removeList(list l, int pos)
+{
+    list l1, prec; //puntatore al nodo da eliminare
+    int i;
+
+    if(pos==0 && l != NULL) //eliminazione in posizione 0
+    {
+        l1 = l;
+        l = tailList(l);
+        free(l1);
+    }
+    else
+    {
+        i = 0;
+        prec = l;
+        while (i<pos-1 && prec != NULL)
+        {
+            prec = prec->next;
+            i++;
+        }
+        //se prec!=NULL allora prec->next punta al nodo da eliminare
+        if(prec != NULL && prec->next != NULL)
+        {
+            l1 = prec->next;
+            prec->next = l1->next;
+            free(l1);
+        }
+    }
+    return l;
+}
