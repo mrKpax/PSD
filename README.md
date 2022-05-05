@@ -31,6 +31,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - puntoHide.h: header "punto.h" con implementazione della struttura del tipo nascosta, si ha un puntatore alla struttura.
 
 ## Liste
+- item.c: sezione implementativa dell'header.
 - item.h: header dove si definisce il tipo item.
 
 ## Laboratorio: 
