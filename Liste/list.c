@@ -10,7 +10,12 @@ struct node {
 
 list newList(void)
 {
-    return NULL;
+    list l = malloc(sizeof(struct cList));
+    if(l != NULL){
+        l->first = NULL;
+        l->size = 0;
+    }
+    return l;
 }
 
 int emptyList(list l)
