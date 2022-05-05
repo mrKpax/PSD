@@ -32,7 +32,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Liste
 - item.c: sezione implementativa dell'header.
-- item.h: header dove si definisce il tipo item.
+- item.h: header dove si definisce il tipo "item".
+- list.c:
+- list.h: header per implementare il tipo astratto "lista".
 
 ## Laboratorio: 
 #### Moduli
