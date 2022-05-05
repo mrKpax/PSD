@@ -1,4 +1,4 @@
-typedef struct node *list;
+typedef struct c_list *list;
 
 list newList(void);
 int emptyList(list l);
