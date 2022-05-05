@@ -30,6 +30,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - pintoHide.c: svolgimento delle funzioni presenti nell'header e implementazione della struct "pto".
 - puntoHide.h: header "punto.h" con implementazione della struttura del tipo nascosta, si ha un puntatore alla struttura.
 
+## Liste
+- item.h: header dove si definisce il tipo item.
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
