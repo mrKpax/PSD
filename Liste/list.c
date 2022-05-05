@@ -192,33 +192,3 @@ list inputList(int n)
 
     return reverseList(l); //poichè alla fine del ciclo l contiene la lista al contrario
 }
-
-list insertList(list l, int pos, item val)
-{
-    item x;
-    int i = 0;
-    list ltmp = newList(); //lista di appoggio
-    list lo = newList(); //lista di output
-
-    while (i<pos && !emptyList(l)) //si scorre la lista e si memorizzazno i primi pos-1 elementi nella lista di appoggio
-    {
-        x = getFirst(l);
-        ltmp = consList(x, ltmp);
-        l = tailList(l);
-        i++;
-    }
-
-    if (i == pos) //controllo se la lista di input ha almeno pos elementi
-    {
-        lo = consLista(val, l);
-        
-        while(!emptyList(ltmp))
-        {
-            x = getFirst(ltmp);
-            lo = consList(x, lo);
-            ltmp = tailList(ltmp);
-        }
-    }
-
-    return(lo);
-}
