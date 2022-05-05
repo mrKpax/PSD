@@ -12,3 +12,4 @@ list reverseList(list l);
 outputList(list l);
 list inputList(int n);
 list insertList(list l, int pos, item val);
+list removeList(list l, int pos);
