@@ -3,6 +3,11 @@
 #include "item.h"
 #include "list.h"
 
+struct c_list {
+    struct node *first;
+    int size;
+}
+
 struct node {
     item value;
     struct node *next;
