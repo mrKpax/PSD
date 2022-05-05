@@ -205,58 +205,75 @@ list inputList(int n)
     return reverseList(l); //poichè alla fine del ciclo l contiene la lista al contrario
 }
 
-list insertList(list l, int pos, item val)
+int insertList(list l, int pos, item val)
 {
+    struct node *tmp = insertNode(l->first, pos, val);
+    if (tmp == NULL)
+        return 0;
+    l->first = tmp;
+    l->size++;
+    return 1;
+}
+
+static struct node *insertNode(struct node *l, int pos, item val)
+{
+    struct node *new, *prec = l;
     int i = 0;
-    list l1, prec = l;
-
-    if (pos == 0)
+    new = xmalloc(sizeof(struct node));
+    
+    new->value = val;
+    if (pos == 0) //inserimento in testa
     {
-        return consList(val, l); //se dobbiamo inserire in posizione 0
-    }    
-
-    while (i<pos-1 && prec != NULL)
+        new->next = l;
+        return new;
+    }
+    while (i<pos-1 && prec!=NULL)
     {
         prec = prec->next;
         i++;
     }
-
-    if(prec == NULL) //la lista di input ha meno di pos elementi
-    {    
-        return l;
-    }    
     
-    //se prec!=NULL allora prec punta all'elemento in posizione pos-1
-    //è possibile inserire il nuovo elemento in posizione pos
-
-    l1 = consList(val, prec->next);
-    prec->next = l1;
-
+    if (prec==NULL)
+    {
+        free(new);
+        return NULL;
+    }
+    new->next = prec->next;
+    prec->next = new; //aggiungo in posizione pos
     return l;
 }
 
 list removeList(list l, int pos)
 {
-    list l1, prec; //puntatore al nodo da eliminare
-    int i;
-
-    if(pos==0 && l != NULL) //eliminazione in posizione 0
+    if(!l || l->first==NULL || l->size==0)
+        return 0;
+    
+    l->first = removeNode(l->first, pos);
+    l->size--;
+    return 1;
+}
+    
+static struct node *removeNode(struct node *l, int pos)
+{
+    struct node *l1; //puntatore al nodo da eliminare
+    
+    if(pos==0 && l!=NULL) //eliminazione in posizione 0
     {
         l1 = l;
-        l = tailList(l);
+        l = l->next;
         free(l1);
     }
     else
     {
-        i = 0;
-        prec = l;
+        int i = 0;
+        struct node *prec = l;
         while (i<pos-1 && prec != NULL)
         {
             prec = prec->next;
             i++;
         }
         //se prec!=NULL allora prec->next punta al nodo da eliminare
-        if(prec != NULL && prec->next != NULL)
+        if(prec!=NULL && prec->next != NULL)
         {
             l1 = prec->next;
             prec->next = l1->next;
