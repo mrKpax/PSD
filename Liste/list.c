@@ -14,9 +14,11 @@ struct node {
 }
 
 list newList(void)
-{
-    list l = malloc(sizeof(struct cList));
-    if(l != NULL){
+{   
+    struct c_list *l;
+    l = malloc(sizeof(struct c_list));
+    if(l != NULL)
+    {
         l->first = NULL;
         l->size = 0;
     }
