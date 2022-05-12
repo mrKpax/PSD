@@ -37,6 +37,8 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - list.h: header per implementare il tipo astratto "lista".
 
 ## Stack
+- item.c: sezione implementativa dell'header.
+- item.h: header dove si definisce il tipo "item".
 - stack.c: sezione implementativa dell'header.
 - stack.h: header per implementare il tipo astratto "stack".
 
