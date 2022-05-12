@@ -39,6 +39,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 ## Stack
 - item.c: sezione implementativa dell'header.
 - item.h: header dove si definisce il tipo "item".
+- parentesi.c: verifica se una data espressione è ben bilanciata rispetto alle parentesi.
 - stack.c: sezione implementativa dell'header.
 - stack.h: header per implementare il tipo astratto "stack".
 
