@@ -42,6 +42,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - parentesi.c: verifica se una data espressione è ben bilanciata rispetto alle parentesi.
 - stacklist.c: sezione implementativa dell'header (con lista collegata).
 - stackmax.c: sezione implementativa dell'header (con dimensione massima).
+- stackmodlist.c: sezione implementativa dell'header (con uso del modulo lista).
 - stacknomax.c: sezione implementativa dell'header (senza dimensione massima).
 - stack.h: header per implementare il tipo astratto "stack".
 
