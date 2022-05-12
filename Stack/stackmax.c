@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "item.h"
-#include "stackmax.h"
+#include "stack.h"
 #define MAXSTACK 50
 
 struct c_stack {
