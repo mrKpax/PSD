@@ -21,12 +21,12 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - ADTlibro.c: esempio di implementazione di ADT.
 - libro.c: svolgimento delle funzioni presenti nell'header.
 - libro.h: header contenente le operazioni sull'ADT libro.
-####.
+#### .
 - punto.c: svolgimento delle funzioni presenti nell'header.
 - punto.h: header contenente le operazioni sull'ADT punto.
 - viciniBase.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione senza file).
 - viciniFile.c: restituisce il numero di coppie di punti con distanza minore di quella specificata (versione con file).
-####.
+#### .
 - puntoHide.c: svolgimento delle funzioni presenti nell'header e implementazione della struct "pto".
 - puntoHide.h: header "punto.h" con implementazione della struttura del tipo nascosta, si ha un puntatore alla struttura.
 
