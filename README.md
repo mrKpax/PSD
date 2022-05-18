@@ -48,7 +48,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Queue
 - queuelist.c: sezione implementativa dell'header (con lista collegata).
-- queuelist.h: header per implementare il tipo astratto "queue".
+- queue.h: header per implementare il tipo astratto "queue".
 
 ## Laboratorio: 
 #### Moduli
