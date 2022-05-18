@@ -46,6 +46,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - stacknomax.c: sezione implementativa dell'header (senza dimensione massima).
 - stack.h: header per implementare il tipo astratto "stack".
 
+## Queue
+- queuelist.c: sezione implementativa dell'header (con lista collegata).
+- queuelist.h: header per implementare il tipo astratto "queue".
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
