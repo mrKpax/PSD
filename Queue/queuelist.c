@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "item.h"
-#include "queuelist.h"
+#include "queue.h"
 
 struct node {
   item value;
