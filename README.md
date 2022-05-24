@@ -51,6 +51,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Ricorsione
 - fattoriale.c: calcolo del fattoriale di un numero con algoritmo ricorsivo.
+- fattorialeiterativo.c: calcolo del fattoriale di un numero con ricorsione iterativa.
 - fibonacci.c: calcolo dell'N-esimo numero di Fibonacci con algoritmo ricorsivo.
 - sommainteri.c: calcolo della somma dei primi "n" interi con algoritmo ricorsivo.
 
