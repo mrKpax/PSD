@@ -2,7 +2,6 @@
 Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Esempi introduttivi
-- fattoriale.c: esempio di ricorsione.
 - lineacomando.c: esempio di input da linea di comando.
 
 ## Ordinamenti
@@ -49,6 +48,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 ## Queue
 - queuelist.c: sezione implementativa dell'header (con lista collegata).
 - queue.h: header per implementare il tipo astratto "queue".
+
+## Ricorsione
+- fattoriale.c: calcolo del fattoriale di un numero con algoritmo ricorsivo.
+- sommainteri.c: calcolo della somma dei primi "n" interi con algoritmo ricorsivo.
 
 ## Laboratorio: 
 #### Moduli
