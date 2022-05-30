@@ -57,6 +57,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Ricorsione Tail
 - fattoriale.c: calcolo del fattoriale con ricorsione tail.
+- inverti.c: inverte una sequenza di caratteri con ricorsione tail.
 
 ## Laboratorio: 
 #### Moduli
