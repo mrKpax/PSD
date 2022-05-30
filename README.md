@@ -55,6 +55,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - fibonacci.c: calcolo dell'N-esimo numero di Fibonacci con algoritmo ricorsivo.
 - sommainteri.c: calcolo della somma dei primi "n" interi con algoritmo ricorsivo.
 
+## Ricorsione Tail
+- fattoriale.c: calcolo del fattoriale con ricorsione tail.
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
