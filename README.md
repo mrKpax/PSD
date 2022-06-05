@@ -11,7 +11,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Ricerche
 - minimoRicorsiva.c: Soluzione ricorsiva della ricerca del minimo in un array. 
+- ricercaBinaria.c: Ricerca di un elemento in un vettore con ricerca binaria.
+- ricercaLineare.c: Ricerca di un elemento in un vettore con ricerca lineare.
 - ricercaRicorsiva.c: Soluzione ricorsiva della ricerca di un elemento in un array.
+- ricercaSequenziale.c: Ricerca di un elemento in un vettore con ricerca sequenziale.
 
 ## Testing
 - testlineacom.c: esempio di testing con file inseriti su linea di comando;
