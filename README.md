@@ -7,6 +7,7 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 ## Ordinamenti
 - bubblesort.c: Ordina un array con la tecnica del Bubble Sort.
 - insertionsort.c: Ordina un array con la tecnica dell'Insertion Sort.
+- mergesort.c: Ordina un array con la tecnica del Merge Sort (algoritmo ricorsivo).
 - selectionsort.c: Ordina un array con la tecnica del Selection Sort.
 
 ## Ricerche
