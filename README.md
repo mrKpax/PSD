@@ -63,6 +63,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - fattoriale.c: calcolo del fattoriale con ricorsione tail.
 - inverti.c: inverte una sequenza di caratteri con ricorsione tail.
 
+## Set
+- set.c: sezione implementativa dell'header (con lista collegata).
+- set.h: header per implementare il tipo astratto "set", basato su lista collegata (non ordinato).
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
