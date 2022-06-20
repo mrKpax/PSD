@@ -73,7 +73,7 @@ int insertSet(set s, item e)
 
     if (s->first == NULL) //caso s vuoto
     {
-        s->first = makeNode(val, NULL);
+        s->first = makeNode(e, NULL);
         if (s->first == NULL)
             return -1; //inserimento non riuscito
         s->size++;
