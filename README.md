@@ -67,6 +67,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - set.c: sezione implementativa dell'header (con lista collegata).
 - set.h: header per implementare il tipo astratto "set", basato su lista collegata (non ordinato).
 
+## Alberi Binari
+- btree.c: sezione implementativa dell'header.
+- btree.h: header per implementare il tipo astratto "albero binario", (struttura a puntatori).
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
