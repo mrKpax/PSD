@@ -75,6 +75,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - bst.c: sezione implementativa dell'header.
 - bst.h: header per implementare il tipo astratto "BST".
 
+## Code a priorità
+- pqueue.c: sezione implementativa dell'header.
+- pqueue.h: header per implementare l'ADT "priority queue" mediante array.
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
