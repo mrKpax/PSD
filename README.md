@@ -71,6 +71,10 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - btree.c: sezione implementativa dell'header.
 - btree.h: header per implementare il tipo astratto "albero binario", (struttura a puntatori).
 
+## Alberi Binari di Ricerca
+- bst.c: sezione implementativa dell'header.
+- bst.h: header per implementare il tipo astratto "BST".
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
