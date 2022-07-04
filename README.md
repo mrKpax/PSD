@@ -81,6 +81,8 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 
 ## Hash Table
 - hash.c: funzione hash per stringhe.
+- hashtable.c: sezione implementativa dell'header.
+- hashtable.h: header per implementare l'ADT "hash table".
 
 ## Laboratorio: 
 #### Moduli
