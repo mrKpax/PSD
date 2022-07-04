@@ -79,6 +79,9 @@ Programmi in C per il corso di Programmazione e Strutture Dati
 - pqueue.c: sezione implementativa dell'header.
 - pqueue.h: header per implementare l'ADT "priority queue" mediante array.
 
+## Hash Table
+- hash.c: funzione hash per stringhe.
+
 ## Laboratorio: 
 #### Moduli
 - modulo.c: Svolgimento delle funzioni di allocazione dinamica con controllo.
